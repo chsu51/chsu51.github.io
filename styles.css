@@ -76,11 +76,18 @@
     font-size: 10pt;
   }
   
+  .navbar-brand{
+    display: flex;
+    justify-content: center;
+  }
   .navbar-brand img {
     width: 200px;
     height: 41px;
   }
 
+  .navbar-collapse{
+    justify-content: center;
+  }
   .btn {
       background-color: white;
       opacity: 80%;
