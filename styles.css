@@ -114,7 +114,7 @@
     object-fit: cover;
   }
 
-  .col-6 img {
+  .media img {
     height: 300px;
     width: 500px;
     object-fit: cover;
