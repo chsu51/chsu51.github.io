@@ -203,7 +203,16 @@
     object-fit: cover;
   }
   
-  /* The footer */
-  .footer{
-      background-color: rgb(6,39,99);
+  /* Subscribe form */
+  .subscribe {
+    background-color: rgb(248, 242, 242);
+    padding-top: 8%;
+    padding-bottom: 10%
   }
+  /* The footer */
+  .footer .fixed-bottom{
+      background-color: rgb(6,39,99);
+      position: bottom;
+      text-align: center;
+  }
+  
