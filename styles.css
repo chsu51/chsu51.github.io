@@ -77,21 +77,28 @@
   }
   
   .navbar-brand{
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    display: block;
   }
+  
   .navbar-brand img {
     width: 200px;
     height: 41px;
   }
 
-  .navbar-collapse{
-    justify-content: center;
+  .navbar-toggler img{
+    float: none;
   }
   .btn {
       background-color: white;
       opacity: 80%;
       color: black;
+  }
+
+  .dropdown-item{
+    font-size: 10pt;
   }
 
   /* Index Jumbotron background and font styles */
