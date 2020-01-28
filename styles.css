@@ -64,6 +64,12 @@
     color: white
   }
 
+  h10 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 10pt;
+    color: white
+  }
+
   /* Navbar background color */
   .navbar {
     background-color: white;
@@ -163,7 +169,7 @@
   .jumbotron3 {
     /* Background */
     background-attachment: fixed;
-    background-image: url(taipei.jpg);
+    background-image: url(taipei2.png);
     background-repeat: no-repeat;
     background-size: cover;
   
