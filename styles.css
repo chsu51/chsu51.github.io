@@ -1,69 +1,189 @@
-        h1{
-            color: white;
-            font-size: 60px; 
-            text-align: center;
-            font-family: Helvetica;
-            margin-top: 10px;
-            margin-bottom: 20px;
-            margin-left: 50px;
-            margin-right: 5px;
-            border: 2px solid black;
-            padding-left: 15px;
-            background-color: darkslateblue;
-            box-shadow: 10px 5px 5px black;
-            border-radius: 30px;
-        }
-        h2{
-            color: white;
-            font-size: 30px;
-            text-align: center;
-            font-family: Helvetica;
-            margin-top: 10px;
-            margin-bottom: 20px;
-            margin-left: 50px;
-            margin-right: 50px;
-        }
-        p {
-            text-align: center;
-            font-family: Helvetica;
-        }
-        img {
-            height: 320px; 
-            /* width: 200px;  */
-            /* comment out certain parts of code in css; press command. HTML same method but syntax is different / */
-        }
-        em {
-            text-transform: uppercase;
-            font-style: initial; 
-        }
-        body {
-            /* background-color: mintcream; */
-            background-image: url(Cosmos07.jpg);
-            background-repeat: repeat;
-            background-size: cover;
-            background-attachment: fixed;
-        }
-        #first {
-            text-align: center;  
-            color: white;
-            background-color: black;
-        }
-        /* #second{
-            text-align: right;  
-        } */
+  /* Typography */
+  body {
+    /* Everything is Raleway */
+    font-family: 'Rubik', sans-serif;
+    font-size: 12pt;
+    color: rgb(68, 63, 63)
+  }
 
-        /* IDs are unique (can only be referenced once). Instead, we use "class"es (can be reused throughout the body). To styilze classes, you use "." */
-        .right {
-            text-align: medium;
-            color: white;
-        }
-        .tacos {
-            color: white;
-        }
-        .big {
-            font-size: 32px;    
-        }
-        p.tacos .big{
-            font-size: 48px;
-            color: seagreen;
-        }
+  h1{
+    font-family: 'Oleo Script', cursive;
+    font-size: 30pt;
+    color: rgb(6,39,99)
+  }
+
+  h2 {
+    font-family: 'Oleo Script', cursive;
+      font-size: 20pt;
+      color: rgb(6, 39, 99)
+  }
+
+  h3 {
+      font-family: 'Rubik',sans-serif;
+      font-size: 14pt;
+      color: grey;
+      text-transform: uppercase;
+  }
+
+  h4 {
+    font-family: 'Rubik',sans-serif;
+    font-size: 18pt;
+    color: grey;
+    text-transform: uppercase;
+    }
+
+  h5 {
+    font-family: 'Rubik',sans-serif;
+    font-size: 14pt;
+    color: rgb(6,39,99);
+    text-transform: uppercase;
+    }
+
+  h6 {
+    font-family: 'Oleo Script', cursive;
+        font-size: 40pt;
+        color: rgb(6,39,99)
+  }
+
+  h7 {
+      font-family: 'Rubik', sans-serif;
+      font-size: 25pt;
+      color: rgb(6,39,99);
+      text-transform: uppercase;
+  }
+
+  h8 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 8pt;
+    color: rgb(68, 63, 63)
+  }
+
+  h9 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 8pt;
+    color: white
+  }
+
+  /* Navbar background color */
+  .navbar {
+    background-color: white;
+    font-size: 10pt;
+  }
+  
+  .navbar-brand img {
+    width: 200px;
+    height: 41px;
+  }
+
+  .btn {
+      background-color: white;
+      opacity: 80%;
+      color: black;
+  }
+
+  /* Index Jumbotron background and font styles */
+  .jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(foodwithtable.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+    /* Fonts */
+    color: white;
+  }
+  
+  .btn-outline-light {
+      font-size: 14pt;
+      justify-content: center
+  }
+
+  /* Main page images */
+  .col-sm-4 img {
+    height: 396.2px;
+    width: 283px;
+    object-fit: cover;
+  }
+
+  .col-6 img {
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+  }
+
+  /* Recipe Elements */
+
+  .col-1 img {
+      max-height: none;
+      width: 1100px;
+      object-fit: cover;
+  }
+  
+  /* Card Elements */
+  .card img{
+      height: 500px;
+      object-fit: cover;
+  }
+
+  /* Fav Cities  */
+
+  .cities img{
+      height: 900px;
+      width: 500px;
+      object-fit: cover;
+  }
+
+  /* City Establishments */
+    /* Vancouver */
+  .jumbotron2 {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(vancity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    padding-top: 5%;
+    padding-bottom: 15%;
+
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .btn-outline-light {
+    color: black;
+    text-shadow: none;
+  }
+
+    /* Taipei */
+  .jumbotron3 {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(taipei.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    padding-top: 5%;
+    padding-bottom: 20%;
+
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  /* About Page */
+  #headshot img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+  }
+  
+  /* The footer */
+  .footer{
+      background-color: rgb(6,39,99);
+  }
