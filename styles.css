@@ -213,7 +213,7 @@
     padding-left: 8%
   }
   /* The footer */
-  .footer .fixed-bottom{
+  .footer {
       background-color: rgb(6,39,99);
       position: bottom;
       text-align: center;
